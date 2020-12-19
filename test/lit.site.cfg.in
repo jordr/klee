@@ -9,6 +9,7 @@ config.klee_obj_root = "@KLEE_BINARY_DIR@"
 config.klee_tools_dir = "@KLEE_TOOLS_DIR@"
 config.llvm_tools_dir = "@LLVM_TOOLS_DIR@"
 
+config.libc_include_dir = "@KLEE_UCLIBC_PATH@/include"
 config.libcxx_include_dir = "@KLEE_LIBCXX_INCLUDE_DIR@"
 
 # Needed to check if a hack needs to be applied
